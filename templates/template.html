@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Favorite Acronym</title>
+    {{ bootstrap.load_css() }}
+</head>
+
+<body>
+    <h1 class="text-center">Task 3: My Favorite Acronym</h1>
+    <p class="text-center">{{ acronym }} ({{ meaning }})</p>
+
+    <h2 class="text-center">Task 4: Image using Bootstrap</h2>
+    <div class="text-center">
+        <img src="https://picsum.photos/id/237/600/400"
+             class="rounded w-50"
+             alt="A dog">
+    </div>
+
+    {{ bootstrap.load_js() }}
+</body>
+</html>
